@@ -2,7 +2,7 @@ class Question:
     def __init__(self, title, text, tags, id, author, upvotes):
         self._id = id
         self._title = title
-        self._author = author  # Должен быть ID автора, а не имя
+        self._author = author
         self._text = text
         self._tags = tags
         self._upvotes = upvotes
