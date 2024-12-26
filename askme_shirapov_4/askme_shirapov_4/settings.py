@@ -38,7 +38,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'askme_shirapov.urls'
+ROOT_URLCONF = 'askme_shirapov_4.urls'
 
 TEMPLATES = [
     {
@@ -57,7 +57,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'askme_shirapov.wsgi.application'
+WSGI_APPLICATION = 'askme_shirapov_4.wsgi.application'
 
 
 # Database
